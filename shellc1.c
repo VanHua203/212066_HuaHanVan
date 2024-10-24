@@ -1,0 +1,4 @@
+#include <stdio.h>
+void shellc1(){
+	printf("This is shellc1");
+}
