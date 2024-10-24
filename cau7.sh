@@ -1,5 +1,5 @@
 #!bin/bash
-mkdir info.txt
+touch info.txt
 date >> info.txt
-$(whoami) >> info.txt
+echo "Ten nguoi dung la: $(whoami)" >> info.txt
 
